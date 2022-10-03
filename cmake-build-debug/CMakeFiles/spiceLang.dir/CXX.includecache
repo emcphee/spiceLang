@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/x/personal projects/spiceLang/ASTNode.h
+string
+-
+vector
+-
+
+/mnt/x/personal projects/spiceLang/lexer.h
+string
+-
+lexerToken.h
+/mnt/x/personal projects/spiceLang/lexerToken.h
+
+/mnt/x/personal projects/spiceLang/lexerToken.h
+string
+-
+
+/mnt/x/personal projects/spiceLang/misc.h
+string
+-
+iostream
+-
+fstream
+-
+sstream
+-
+lexerToken.h
+/mnt/x/personal projects/spiceLang/lexerToken.h
+ASTNode.h
+/mnt/x/personal projects/spiceLang/ASTNode.h
+
+/mnt/x/personal projects/spiceLang/parser.cpp
+parser.h
+/mnt/x/personal projects/spiceLang/parser.h
+
+/mnt/x/personal projects/spiceLang/parser.h
+ASTNode.h
+/mnt/x/personal projects/spiceLang/ASTNode.h
+lexer.h
+/mnt/x/personal projects/spiceLang/lexer.h
+vector
+-
+iostream
+-
+misc.h
+/mnt/x/personal projects/spiceLang/misc.h
+stack
+-
+

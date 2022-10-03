@@ -1,0 +1,8 @@
+C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec /bin/sh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd '/mnt/x/personal projects/spiceLang/cmake-build-debug' && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' '/mnt/x/personal projects/spiceLang'"
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  CXX_STANDARD is set to invalid value '23'
+
+
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.

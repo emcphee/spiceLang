@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/spiceLang.dir/main.cpp.o CMakeFiles/spiceLang.dir/lexer.cpp.o CMakeFiles/spiceLang.dir/misc.cpp.o CMakeFiles/spiceLang.dir/ASTNode.cpp.o CMakeFiles/spiceLang.dir/parser.cpp.o  -o spiceLang 
